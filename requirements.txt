@@ -1,0 +1,6 @@
+nltk
+crystalbleu
+code-bert-score
+vertexai
+google-cloud-aiplatform
+pandas
