@@ -34,6 +34,8 @@ In this research, we have used the LLMSecEval dataset and used the 150 NL Prompt
 
 We then used gemini-pro to again generate code for all the mutated prompts. Lastly, we calculated the similarity score using codeBERT between the code generated from original prompt and the codes generated from mutated prompts. <br>
 
+![](examples.png) <br>
+
 ### Files
 1. [_LLMSecEval_](https://github.com/tuhh-softsec/LLMSecEval/): This is the dataset we have refered for the 150 original NL Prompts. <br>
 2. _mutated_prompts.csv_: Contains the results of the mutated codes.  <br>
