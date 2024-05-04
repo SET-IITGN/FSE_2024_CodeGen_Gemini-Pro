@@ -38,7 +38,7 @@ We then used gemini-pro to again generate code for all the mutated prompts. Last
 
 ### Files
 1. [_LLMSecEval_](https://github.com/tuhh-softsec/LLMSecEval/): This is the dataset we have refered for the 150 original NL Prompts. <br>
-2. _mutated_prompts.csv_: Contains the results of the mutated codes.  <br>
+2. _mutated_prompts.csv_: Contains the results of the mutated prompts.  <br>
 3. _gen_code.csv_: Contains the code generated from the original 150 prompts. <br> 
 4. _mutated_prompts_gen_code.csv_: Contains the code generated for each of the mutated prompts.  <br>
 4. _main_sim.py_: Contains the results of the similarity scores calculated between the code generated from original prompt to the corresponding codes generated from mutated prompts.  <br>
