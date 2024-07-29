@@ -192,3 +192,23 @@ printf("%s\n", buffer);
 3. _gen_code.csv_: Contains the code generated from the original 150 prompts. <br> 
 4. _mutated_prompts_gen_code.csv_: Contains the code generated for each of the mutated prompts.  <br>
 4. _main_sim.py_: Contains the results of the similarity scores calculated between the code generated from original prompt to the corresponding codes generated from mutated prompts.  <br>
+
+## Citation
+```bash
+@inproceedings{10.1145/3663529.3663873,
+author = {Patel, Hetvi and Shah, Kevin Amit and Mondal, Shouvick},
+title = {Do Large Language Models Generate Similar Codes from Mutated Prompts? A Case Study of Gemini Pro},
+year = {2024},
+isbn = {9798400706585},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3663529.3663873},
+doi = {10.1145/3663529.3663873},
+booktitle = {Companion Proceedings of the 32nd ACM International Conference on the Foundations of Software Engineering},
+pages = {671–672},
+numpages = {2},
+keywords = {Gemini Pro, LLMs, NL Prompt Mutation, Source Code Similarity},
+location = {Porto de Galinhas, Brazil},
+series = {FSE 2024}
+}
+```
